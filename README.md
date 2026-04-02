@@ -17,6 +17,10 @@ Replace this paragraph with your own summary of what your version does.
 
 ## How The System Works
 
+- My understanding of how real world recommendations work is that both preferences and similarities with other users are very important when determining what to recommend. If many users like the same media, and a smaller cluster of those users like a different media, the other users who previously liked the same media will be recommended to consume the new media that the smaller cluster liked.
+- My version will prioritize user preferences due to there not being any outside user data I can use.
+- The specific features that my Song and UserProfile objects will use are: genre, mood, energy, valence, and accousicness.
+
 Explain your design in plain language.
 
 Some prompts to answer:
